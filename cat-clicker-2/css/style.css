@@ -1,0 +1,34 @@
+img {
+  width: 100%;
+}
+
+ul li {
+  text-align: left;
+}
+
+.app {
+  text-align: center;
+}
+.app h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: #CDF2D1;
+  color: #282C35;
+  padding: 4rem 0;
+}
+.app .catWrapper {
+  width: 30%;
+  float: left;
+  margin: 1rem;
+  border: 1px #282C35 solid;
+}
+.app .catWrapper h2 {
+  font-size: 1.4rem;
+  color: #282C35;
+  margin: 1rem 0;
+}
+.app .catWrapper .imageWrapper {
+  height: 10rem;
+  overflow: hidden;
+}

@@ -1,0 +1,45 @@
+$main-orange: #FAAA8A;
+$main-grey: #282C35;
+$main-teal: #CDF2D1;
+
+img {
+  width: 100%;
+}
+
+ul {
+  // background-color: $main-teal;
+  li {
+    text-align: left;
+  }
+}
+
+.app {
+  text-align: center;
+
+  // styles for app name
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: $main-teal;
+    color: $main-grey;
+    padding: 4rem 0;
+  }
+
+  // styles for each cat elm
+  .catWrapper {
+    width: 30%;
+    float: left;
+    margin: 1rem;
+    border: 1px $main-grey solid;
+    h2 {
+      font-size: 1.4rem;
+      color: $main-grey;
+      margin: 1rem 0;
+    }
+    .imageWrapper {
+      height: 10rem;
+      overflow: hidden;
+    }
+  }
+}
